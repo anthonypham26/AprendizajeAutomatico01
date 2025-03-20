@@ -67,7 +67,7 @@ La inteligencia artificial y el aprendizaje automático han evolucionado rápida
 
 Las consideraciones éticas en la IA son cada vez más urgentes. Equilibrar la innovación con la rendición de cuentas, la transparencia y la equidad es crucial para garantizar que la IA sirva al bien público en lugar de aumentar las desigualdades sociales.
 
-Este es un tema amplio y muy fisiológico, y existen muchos recursos en línea para aprender más sobre humanismo y ética. Lo principal es reconocer estos valores y preocupaciones al desarrollar la IA.
+Este es un tema amplio y muy filosófico, y existen muchos recursos en línea para aprender más sobre humanismo y ética. Lo principal es reconocer estos valores y preocupaciones al desarrollar la IA.
 
 ## 4) Datos
 
