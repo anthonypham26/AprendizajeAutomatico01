@@ -406,38 +406,38 @@ Este importante aspecto del análisis de datos es el paso final del aprendizaje 
 ## Enlaces adicionales
 **Aprendizaje Automático General y Ciencia de Datos**
 
-- **MLU-Explain** – [https://mlu-explain.github.io/](https://mlu-explain.github.io/)
+- *MLU-Explain* – [https://mlu-explain.github.io/](https://mlu-explain.github.io/)
     - Plataforma de aprendizaje interactiva con explicaciones visuales paso a paso. Ideal para principiantes y para el aprendizaje práctico.
 
-- **Curso Intensivo de Aprendizaje Automático de Google** – [https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)
+- *Curso Intensivo de Aprendizaje Automático de Google* – [https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)
     - Curso gratuito con ejercicios prácticos de programación.
 
-- **Cursos de Kaggle** – [https://www.kaggle.com/learn](https://www.kaggle.com/learn)
+- *Cursos de Kaggle* – [https://www.kaggle.com/learn](https://www.kaggle.com/learn)
     - Tutoriales interactivos de aprendizaje automático y ciencia de datos con conjuntos de datos reales.
 
 **Ingeniería de Características y Preprocesamiento**
 
-- **Documentación de Pandas** – [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)
+- *Documentación de Pandas* – [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)
     - Documentación oficial para el manejo de datos estructurados en Python.
 
-- **Guía de Limpieza de Datos (Python Real)** – [https://realpython.com/python-data-cleaning-numpy-pandas/](https://realpython.com/python-data-cleaning-numpy-pandas/)
+- *Guía de Limpieza de Datos* – [https://realpython.com/python-data-cleaning-numpy-pandas/](https://realpython.com/python-data-cleaning-numpy-pandas/)
     - Tutorial sobre el manejo de valores faltantes, duplicados y valores atípicos.
 
-- **Guía de preprocesamiento de Sklearn** – [https://scikit-learn.org/stable/modules/preprocessing.html](https://scikit-learn.org/stable/modules/preprocessing.html)
+- *Guía de preprocesamiento de Sklearn* – [https://scikit-learn.org/stable/modules/preprocessing.html](https://scikit-learn.org/stable/modules/preprocessing.html)
     - Documentación oficial sobre codificación, escalado y selección de características
 
-- **Guía de ingeniería de características** – [https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
+- *Guía de ingeniería de características* – [https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
     - Aprenda sobre técnicas avanzadas de transformación de características.
 
 **Visualización de datos**
-- **Tutorial de Matplotlib y Seaborn** – [https://realpython.com/python-matplotlib-guide/](https://realpython.com/python-matplotlib-guide/)
+- *Tutorial de Matplotlib y Seaborn* – [https://realpython.com/python-matplotlib-guide/](https://realpython.com/python-matplotlib-guide/)
     - Guía para principiantes sobre cómo graficar con Matplotlib.
 
-- **Documentación de Power BI** – [https://learn.microsoft.com/en-us/power-bi/](https://learn.microsoft.com/en-us/power-bi/)
+- *Documentación de Power BI* – [https://learn.microsoft.com/en-us/power-bi/](https://learn.microsoft.com/en-us/power-bi/)
     - Guía oficial de Microsoft sobre el uso de Power BI.
 
-- **Documentación de Streamlit** – [https://docs.streamlit.io/](https://docs.streamlit.io/)
+- *Documentación de Streamlit* – [https://docs.streamlit.io/](https://docs.streamlit.io/)
     - Aprende a crear fácilmente paneles interactivos de aprendizaje automático.
 
-- **Dash de Plotly** – [https://dash.plotly.com/](https://dash.plotly.com/)
+- *Dash de Plotly* – [https://dash.plotly.com/](https://dash.plotly.com/)
     - Guía para crear aplicaciones web personalizadas e interactivas.
