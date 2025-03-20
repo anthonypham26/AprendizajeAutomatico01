@@ -217,8 +217,6 @@ Mediante la aplicación de métodos estadísticos, podemos detectar errores, ide
 
 - **`pd.get_dummies(df['categorical_col'])`**: Aplica codificación one-hot a una variable categórica.
 
-- **`df['col'].map(mapping_dict)`**: Reemplaza los valores de una columna mediante un mapa de diccionario.
-
 #### Análisis Exploratorio de Datos (EDA)
 
 - **`df['col'].value_counts()`**: Cuenta las ocurrencias de cada categoría en una columna.
@@ -338,6 +336,8 @@ A continuación, se presentan varios tipos comunes de gráficos con sus caracter
 
 Todo lo que acabo de mencionar se enmarca en la etapa de Análisis/Preprocesamiento de Datos del Aprendizaje Automático.
 
+Un acrónimo que probablemente veas más adelante es ETL (Extract, Transform, Load): el proceso de recopilar datos sin procesar (Extract), limpiarlos y prepararlos para su análisis (Transform) y almacenarlos en una base de datos o sistema (Load). ETL garantiza que los datos estén estructurados y listos para el aprendizaje automático.
+
 **Recopilación de Datos:**
 - Recopilación de datos ya realizada: simplemente busque un conjunto de datos y cárguelo en su espacio de trabajo.
 
@@ -357,6 +357,14 @@ Los gráficos nos ayudan a comprender las relaciones y los patrones que son dif�
     - ¿Qué características escalamos?
     - ¿Qué características categóricas necesitamos codificar?
 
+**División de datos para entrenamiento/prueba**
+En la etapa final del preprocesamiento, dividimos nuestros datos en un conjunto de entrenamiento y uno de prueba para evaluar el rendimiento de nuestro modelo.
+
+El conjunto de entrenamiento se utiliza para entrenar el modelo, mientras que el conjunto de prueba se mantiene separado para evaluar su capacidad de generalización a nuevos datos. Una división habitual es del 80 % para entrenamiento y del 20 % para prueba, pero esto puede variar según el conjunto de datos.
+
+Existen técnicas de división más avanzadas, como la validación cruzada, que abordaremos más adelante.
+
+<kbd><img src="imagenes/train-test-split.jpg" style="border:1px solid grey; border-radius:10px;"></kbd>
 
 ## 8) Narrativa de Datos
 
@@ -366,6 +374,70 @@ Tras completar el preprocesamiento y el modelado, el siguiente paso es presentar
 
 La narrativa de datos es el puente entre los datos sin procesar y la información procesable.
 
+**Recursos:**
+
+- *Power BI*
+    - Una herramienta de visualización de datos e inteligencia empresarial de Microsoft
+    - Ayuda a los usuarios a analizar datos mediante paneles interactivos
+    - Se conecta a diversas fuentes de datos, los limpia y transforma, y ​​crea visualizaciones como gráficos y tablas.
+
+    Power BI se utiliza ampliamente en empresas para la toma de decisiones basada en datos.
+
+- *Dash, Streamlit y Gradio*
+
+    Todos son frameworks de Python para crear aplicaciones web interactivas, especialmente para visualización de datos, modelos de aprendizaje automático y demostraciones de IA.
+
+- Dash
+    - Desarrollado con Flask y React
+    - Ideal para crear paneles de datos complejos y personalizables, así como aplicaciones de análisis, que proporciona control total sobre los diseños y los componentes de la interfaz de usuario, pero requiere más programación.
+    - Ideal para aplicaciones de visualización de datos e inteligencia empresarial de alta gama.
+
+- Streamlit
+    - Un framework ligero y rápido diseñado para la creación rápida de prototipos de aplicaciones de aprendizaje automático y ciencia de datos.
+    - Requiere un código mínimo, solo un script de Python.
+    - Ideal para crear aplicaciones de aprendizaje automático interactivas sin centrarse en el desarrollo web. 
+- Gradio
+    - Ideal para demostraciones de modelos de IA/ML, permite crear interfaces web con solo unas pocas líneas de código.
+        - Admite la función de arrastrar y soltar para entradas de imagen, audio y texto.
+    - Ideal para compartir modelos de ML con usuarios sin conocimientos técnicos mediante interfaces web sencillas.
+
 Este importante aspecto del análisis de datos es el paso final del aprendizaje automático, garantizando una comunicación que atraiga a la audiencia y oriente sus decisiones. En otras palabras, se trata de hacer que los datos sean significativos, integrándolos en una narrativa clara y fácil de entender.
 
 ## Enlaces adicionales
+**Aprendizaje Automático General y Ciencia de Datos**
+
+- **MLU-Explain** – [https://mlu-explain.github.io/](https://mlu-explain.github.io/)
+    - Plataforma de aprendizaje interactiva con explicaciones visuales paso a paso. Ideal para principiantes y para el aprendizaje práctico.
+
+- **Curso Intensivo de Aprendizaje Automático de Google** – [https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)
+    - Curso gratuito con ejercicios prácticos de programación.
+
+- **Cursos de Kaggle** – [https://www.kaggle.com/learn](https://www.kaggle.com/learn)
+    - Tutoriales interactivos de aprendizaje automático y ciencia de datos con conjuntos de datos reales.
+
+**Ingeniería de Características y Preprocesamiento**
+
+- **Documentación de Pandas** – [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)
+    - Documentación oficial para el manejo de datos estructurados en Python.
+
+- **Guía de Limpieza de Datos (Python Real)** – [https://realpython.com/python-data-cleaning-numpy-pandas/](https://realpython.com/python-data-cleaning-numpy-pandas/)
+    - Tutorial sobre el manejo de valores faltantes, duplicados y valores atípicos.
+
+- **Guía de preprocesamiento de Sklearn** – [https://scikit-learn.org/stable/modules/preprocessing.html](https://scikit-learn.org/stable/modules/preprocessing.html)
+    - Documentación oficial sobre codificación, escalado y selección de características
+
+- **Guía de ingeniería de características** – [https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
+    - Aprenda sobre técnicas avanzadas de transformación de características.
+
+**Visualización de datos**
+- **Tutorial de Matplotlib y Seaborn** – [https://realpython.com/python-matplotlib-guide/](https://realpython.com/python-matplotlib-guide/)
+    - Guía para principiantes sobre cómo graficar con Matplotlib.
+
+- **Documentación de Power BI** – [https://learn.microsoft.com/en-us/power-bi/](https://learn.microsoft.com/en-us/power-bi/)
+    - Guía oficial de Microsoft sobre el uso de Power BI.
+
+- **Documentación de Streamlit** – [https://docs.streamlit.io/](https://docs.streamlit.io/)
+    - Aprende a crear fácilmente paneles interactivos de aprendizaje automático.
+
+- **Dash de Plotly** – [https://dash.plotly.com/](https://dash.plotly.com/)
+    - Guía para crear aplicaciones web personalizadas e interactivas.
