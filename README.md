@@ -17,8 +17,8 @@
     - Codificación
     - Ingeniería de Características
 6. [Tipos de Gráficos](#6-tipos-de-gráficos)
-7. [Análisis de Datos](#7-preprocesamiento-del-análisis-de-datos)
-8. [Narración de Datos](#8-narración-de-datos)
+7. [Análisis de Datos](#7-analisis-y-preprocesamiento-de-datos)
+8. [Narración de Datos](#8-narrativa-de-datos)
 
 
 ## 1) Qué es el Aprendizaje Automático
@@ -332,9 +332,9 @@ A continuación, se presentan varios tipos comunes de gráficos con sus caracter
 
 <kbd><img src="imagenes/graphs.jpg" style="border:1px solid grey; border-radius:10px;"></kbd>
 
-## 7) Análisis/Preprocesamiento de Datos
+## 7) Análisis y Preprocesamiento de Datos
 
-Todo lo que acabo de mencionar se enmarca en la etapa de Análisis/Preprocesamiento de Datos del Aprendizaje Automático.
+Todo lo que acabo de mencionar se enmarca en la etapa de Análisis y Preprocesamiento de Datos del Aprendizaje Automático.
 
 Un acrónimo que probablemente veas más adelante es ETL (Extract, Transform, Load): el proceso de recopilar datos sin procesar (Extract), limpiarlos y prepararlos para su análisis (Transform) y almacenarlos en una base de datos o sistema (Load). ETL garantiza que los datos estén estructurados y listos para el aprendizaje automático.
 
@@ -425,9 +425,6 @@ Este importante aspecto del análisis de datos es el paso final del aprendizaje 
 
 - *Guía de preprocesamiento de Sklearn* – [https://scikit-learn.org/stable/modules/preprocessing.html](https://scikit-learn.org/stable/modules/preprocessing.html)
     - Documentación oficial sobre codificación, escalado y selección de características
-
-- *Guía de ingeniería de características* – [https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
-    - Aprenda sobre técnicas avanzadas de transformación de características.
 
 **Visualización de datos**
 - *Tutorial de Matplotlib y Seaborn* – [https://realpython.com/python-matplotlib-guide/](https://realpython.com/python-matplotlib-guide/)
